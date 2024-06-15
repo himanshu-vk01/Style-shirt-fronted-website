@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style Shirt</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <section id="banner">
+        <img src="./image/style-logo-6.png" alt="Logo" class="logo">
+        <div class="banner-text">
+            <h1>Style Shirt</h1>
+            <p>Design & Buy your own shirt...</p>
+        </div>
+        <div class="banner-btn">
+            <a  href="#">Style shirt <span></span></a>
+            <a href="#">Buy shirt <span></span></a>
+        </div>
+    </section>
+        <div id="sidenav">
+            <nav>
+            <ul>
+               <li> <a href="#banner">HOME</a></li>
+               <li> <a href="#feature">FEATURE</a></li>
+               <li> <a href="#service">SERVICES</a></li>
+               <li> <a href="#footer">MEET US</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div id="menubtn">
+            <img src="./image/743930_button_512x512.png" alt="menu btn" id="menu">
+
+        </div>
+        <script>
+            var menubtn = document.getElementById ("menubtn")
+            var sidenav = document.getElementById ("sidenav")
+            var menu = document.getElementById ("menu")
+
+            sidenav.style.right = "-250px";
+
+            menubtn.onclick = function(){
+                if(sidenav.style.right == "-250px"){
+                    sidenav.style.right = "0";
+                    menu.src = "./image/R.png"
+
+
+                }
+                else{
+                    sidenav.style.right = "-250px";
+                    menu.src = "./image/743930_button_512x512.png"
+
+                }
+            }
+        // All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+        </script>
+        <section id="feature">
+            <div class="title-text">
+                <p>FEATURE</p>
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1 id="comf">comfortable</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-shield"></i>
+                        </div>
+                            <div class="fea-text">
+                                <h6> you can buy a very comfortable and every day to use shirts.which is made by professnal shirt designer.
+                                    
+                                </h6>
+                            </div>
+                        </div>
+                        <h1 id="comf">Design Your Product</h1>
+                        <div class="feature-desc">
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-shield"></i>
+                            </div>
+                                <div class="fea-text">
+                                    <h6> Design awesome t-shirts without any cost at our designing studio.
+                                    </h6>
+                                </div>
+                            </div>
+                            <h1 id="comf">We make it and ship it!</h1>
+                            <div class="feature-desc">
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-shield"></i>
+                                </div>
+                                    <div class="fea-text">
+                                        <h6> We print, package and ship product to your buyers.No extra charge all additional cost mannaged by company.
+
+                                        </h6>
+                                    </div>
+                                </div>
+                        
+                   
+                </div>
+                <div class="features-img">
+                    <img src="./image/2.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section id="service">
+            <div class="title-text">
+                <p>Services</p>
+                <h1>We provide batter</h1>
+            </div>
+            <div class="service-box">
+                <div class="single-service"><img src="./image/1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-des">
+                    <h3>
+                        <h3>Fully custmixe t-shirt</h3>
+                        <hr>
+                        <p>
+                            you can design your own design on any t shirt we offer you . you can choose any tshirt and design it. fully custmizes and ready and daliy to use you can were all day.
+
+                        </p>
+                    </h3>
+                </div>
+            </div>
+                <div class="single-service"><img src="./image/1.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="service-des">
+                        <h3>
+                            <h3>Fully custmixe t-shirt</h3>
+                            <hr>
+                            <p>
+                                you can design your own design on any t shirt we offer you . you can choose any tshirt and design it. fully custmizes and ready and daliy to use you can were all day.
+    
+                            </p>
+                        </h3>
+                    </div>
+                </div>
+                <div class="single-service"><img src="./image/1.jpg" alt=""> 
+                     <div class="overlay"></div>
+                     <div class="service-des">
+                        <h3>
+                            <h3>Fully custmixe t-shirt</h3>
+                            <hr>
+                            <p>
+                                you can design your own design on any t shirt we offer you . you can choose any tshirt and design it. fully custmizes and ready and daliy to use you can were all day.
+    
+                            </p>
+                        </h3>
+                    </div>
+            
+            </div>
+                <div class="single-service"><img src="./image/1.jpg" alt=""> 
+                     <div class="overlay"></div>
+                     <div class="service-des">
+                        <h3>
+                            <h3>Fully custmixe t-shirt</h3>
+                            <hr>
+                            <p>
+                                you can design your own design on any t shirt we offer you . you can choose any tshirt and design it. fully custmizes and ready and daliy to use you can were all day.
+    
+                            </p>
+                        </h3>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <section id="footer">
+            <img src="./image/OIP (1).jpg" alt="" class="footer-img">
+            <div class="title-text">
+                <p>Contact</p>
+                <h1>Visit Shop Today</h1>
+            </div>
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Opening Hour</h1>
+
+                    <p>  <i class="fa-solid fa-clock"></i>Monday to Friday - 9am to 9pm</p>
+                    <p> <i class="fa-solid fa-clock"></i>saturday and Sunday-8am to 11pm</p>
+                </div>
+                <div class="footer-right">
+                    <h1>Get in Touch</h1>
+                    <p>#30 abc colony , xyz city IN  <i class="fa-solid fa-map-marker"></i></p>
+                    <p>hmraj62051@gmail.com <i class="fa-solid fa-paper-plane"></i></p>
+                    <p>8757643800  <i class="fa-solid fa-phone"></i></p>
+
+                </div>
+            </div>
+            <div class="social-links">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <p>Copyright Himanshu Sinha</p>
+
+            </div>
+
+        </section>
+
+    
+
+    
+</body>
+</html>
