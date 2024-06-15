@@ -297,9 +297,12 @@ text-align: center;
  }
 @media screen and (max-width:770px){
 
-    single-service{
-        flex-basis: 100%;
-        margin-bottom: 30px;
+    .single-service{
+      right: 180px;
+      flex-basis: 70%;
+      border-radius: 7px;
+      
+
 
     }
     .service-des p{
@@ -312,12 +315,7 @@ text-align: center;
         bottom: 25% !important;
         opacity: 1;
     }
-    .service-box{
-        display: grid;
-        grid-template-columns: 400px;
-        grid-template-rows: 400px;
-        
-    }
+    
  }
  #footer{
     padding: 100px 0 20px;
